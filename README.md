@@ -6,19 +6,27 @@ It is a complete education in computer science using online materials
 
 **Curriculum version**:`8.0.0`\(see[CHANGELOG](https://github.com/ossu/computer-science/blob/dev/CHANGELOG.md)\)
 
-* [1.语法示例](#1)
+* [Intro CS](#1)
+  * [Introduction to Programming](#1.1)
+  * [Introduction to Computer Science](#1.2)
+* [Core CS](#2)
+  * [Core programming](#2.1)
+  * [Core math](#2.2)
+  * [Core systems](#2.3)
+  * [Core theory](#2.4)
+  * [Core applications](#2.5)
+* [Advanced CS](#3)
+  * [Advanced programming](#3.1)
+  * [Advanced math](#3.2)
+  * [Advanced systems](#3.3)
+  * [Advanced theory](#3.4)
+  * [Advanced applications](#3.5)
+* [Final project](#4)
+* [Pro CS](#5)
 
-* [1.1图片](#1.1)
-
-* [1.2换行](#1.2)
-
-* [1.3强调](#1.3)
 
 <h2 id="1">Intro CS</h2>
-
-## Intro CS
-
-### Introduction to Programming
+<h3 id="1.1">Introduction to Programming</h3>
 
 **Topics covered**:`simple programs` `simple data structures`
 
@@ -27,7 +35,7 @@ It is a complete education in computer science using online materials
 | [Python for Everyone](https://www.coursera.org/specializations/python) | 58 hours | none |
 | [Fundamentals of Computing](https://www.coursera.org/specializations/computer-fundamentals) | 138 hours | high school mathematics |
 
-### Introduction to Computer Science
+<h3 id="1.2">Introduction to Computer Science</h3>
 
 **Topics covered**: `computation` `imperative programming` `basic data structures and algorithms` `and more` 
 
@@ -35,7 +43,8 @@ It is a complete education in computer science using online materials
 | :--- | :--- | :--- | :--- |
 | [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10)\([alt](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)\) | 9 weeks | 15 hours/week | high school algebra |
 
-## Core CS
+<h2 id="2">Core CS</h2>
+<h3 id="2.1">Core programming</h3>
 
 | Courses                                                      | Duration | Effort          | Prerequisites                            |
 | ------------------------------------------------------------ | -------- | --------------- | ---------------------------------------- |
@@ -52,8 +61,8 @@ It is a complete education in computer science using online materials
 - **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/) 
   - **Note**: probably the best resource to learn Haskell: [Haskell Programming from First Principles](http://haskellbook.com/) `paid` 
 - **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://lpn.swi-prolog.org/lpnpage.php?pageid=top) 
-<h3 id="1.1">1.1图片</h3>
-### Core math
+
+<h3 id="2.2">Core math</h3>
 
 **Topics covered**: `linear transformations` `matrices` `vectors` `mathematical proofs` `number theory` `differential calculus` `integral calculus` `sequences and series` `discrete mathematics` `basic statistics` `O-notation` `graph theory` `vector calculus` `discrete probability` `and more`
 
@@ -68,7 +77,7 @@ It is a complete education in computer science using online materials
 
 [^1]:  Students struggling with MIT Math for CS can consider taking the Discrete Mathematics Specialization first. It is more interactive but less comprehensive, and it costs money to unlock full interactivity.
 
-### Core systems
+<h3 id="2.3">Core Sysytems</h3>
 
 **Topics covered**: `procedural programming` `manual memory management` `boolean algebra` `gate logic` `memory` `computer architecture` `assembly` `machine language` `virtual machines` `high-level languages` `compilers` `operating systems` `network protocols` `and more`
 
@@ -80,7 +89,7 @@ It is a complete education in computer science using online materials
 | [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about) | 8 weeks  | 4–12 hours/week  | [Assignment 1](https://github.com/PrincetonUniversity/COS461-Public/tree/master/assignments/assignment1) [Assignment 2](https://www.scs.stanford.edu/10au-cs144/lab/reliable/reliable.html) [Assignment 3](https://nptel.ac.in/content/storage2/courses/106105080/pdf/M2L7.pdf) [Assignment 4](http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v7.0.pdf) | algebra, probability, basic CS                               |
 | [ops-class.org - Hack the Kernel](https://www.ops-class.org/) | 15 weeks | 6 hours/week     | Replace course textbook with [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) | algorithms                                                   |
 
-### Core theory
+<h3 id="2.4">Core theory</h3>
 
 **Topics covered**: `divide and conquer` `sorting and searching` `randomized algorithms` `graph search` `shortest paths` `data structures` `greedy algorithms` `minimum spanning trees` `dynamic programming` `NP-completeness` `and more`
 
@@ -89,7 +98,8 @@ It is a complete education in computer science using online materials
 | [Algorithms: Design and Analysis, Part I](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms1+SelfPaced/about) | 8 weeks  | 4-8 hours/week | any programming language, Mathematics for Computer Science |
 | [Algorithms: Design and Analysis, Part II](https://lagunita.stanford.edu/courses/course-v1:Engineering+Algorithms2+SelfPaced/about) | 8 weeks  | 4-8 hours/week | Part I                                                     |
 
-### Core applications
+<h3 id="2.5">Core applications</h3>
+
 
 **Topics covered**: `Agile methodology` `REST` `software specifications` `refactoring` `relational databases` `transaction processing` `data modeling` `neural networks` `supervised learning` `unsupervised learning` `OpenGL` `raytracing` `block ciphers` `authentication` `public key encryption` `and more`
 
@@ -108,7 +118,8 @@ After completing **every required course** in Core CS, students should choose a 
 
 The Advanced CS study should then end with one of the Specializations under [Advanced applications](https://github.com/ossu/computer-science#advanced-applications). A Specialization's Capstone, if taken, may act as the [Final project](https://github.com/ossu/computer-science#final-project), if permitted by the Honor Code of the course. If not, or if a student chooses not to take the Capstone, then a separate Final project will need to be done to complete this curriculum.
 
-### Advanced programming
+<h3 id="3.1">Advanced programming</h3>
+
 
 **Topics covered**: `debugging theory and practice` `goal-oriented programming` `GPU programming` `CUDA` `parallel computing` `object-oriented analysis and design` `UML` `large-scale software architecture and design` `and more`
 
@@ -121,7 +132,7 @@ The Advanced CS study should then end with one of the Specializations under [Adv
 | [Introduction to Parallel Programming](https://classroom.udacity.com/courses/cs344) ([alt](https://www.youtube.com/playlist?list=PLGvfHSgImk4aweyWlhBXNF6XISY3um82_)) | 12 weeks | -              | C, algorithms                       |
 | [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821) | 8 weeks  | 6 hours/week   | software engineering in Java        |
 
-### Advanced math
+<h3 id="3.2">Advanced math</h3>
 
 **Topics covered**: `parametric equations` `polar coordinate systems` `multivariable integrals` `multivariable differentials` `probability theory` `and more`
 
@@ -130,7 +141,8 @@ The Advanced CS study should then end with one of the Specializations under [Adv
 | [Multivariable Calculus](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/index.htm) | 13 weeks | 12 hours/week | MIT Calculus 1C        |
 | [Introduction to Probability - The Science of Uncertainty](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) | 18 weeks | 12 hours/week | Multivariable Calculus |
 
-### Advanced systems
+<h3 id="3.3">Advanced systems</h3>
+
 
 **Topics covered**: `digital signaling` `combinational logic` `CMOS technologies` `sequential logic` `finite state machines` `processor instruction sets` `caches` `pipelining` `virtualization` `parallel processing` `virtual memory` `synchronization primitives` `system call interface` `and more`
 
@@ -146,7 +158,7 @@ The Advanced CS study should then end with one of the Specializations under [Adv
 
 **1 Note**: These courses assume knowledge of basic physics. ([Why?](https://github.com/ossu/computer-science/blob/dev/FAQ.md#why-is-the-curriculum-missing-some-pre-requisites)) If you are struggling, you can find a physics MOOC or utilize the materials from Khan Academy: [Khan Academy - Physics](https://www.khanacademy.org/science/physics)
 
-### Advanced theory
+<h3 id="3.4">Advanced theory</h3>
 
 **Topics covered**: `formal languages` `Turing machines` `computability` `event-driven concurrency` `automata` `distributed shared memory` `consensus algorithms` `state machine replication` `computational geometry theory` `propositional logic` `relational logic` `Herbrand logic` `concept lattices` `game trees` `and more`
 
@@ -157,8 +169,7 @@ The Advanced CS study should then end with one of the Specializations under [Adv
 | [Computational Geometry](https://www.edx.org/course/computational-geometry-tsinghuax-70240183x) | 16 weeks | 8 hours/week   | algorithms, C++                              |
 | [Introduction to Formal Concept Analysis](https://www.coursera.org/learn/formal-concept-analysis) | 6 weeks  | 4-6 hours/week | logic, probability                           |
 | [Game Theory](https://www.coursera.org/learn/game-theory-1)  | 8 weeks  | x hours/week   | mathematical thinking, probability, calculus |
-
-### Advanced applications
+<h3 id="3.5">Advanced applications</h3>
 
 These Coursera Specializations all end with a Capstone project. Depending on the course, you may be able to utilize the Capstone as your Final Project for this Computer Science curriculum. Note that doing a Specialization with the Capstone at the end always costs money. So if you don't wish to spend money or use the Capstone as your Final, it may be possible to take the courses in the Specialization for free by manually searching for them, but not all allow this.
 
@@ -173,20 +184,13 @@ These Coursera Specializations all end with a Capstone project. Depending on the
 | [Data Science (Specialization)](https://www.coursera.org/specializations/jhu-data-science) | 43 weeks | 1-6 hours/week | none                                               |
 | [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 weeks | 4-5 hours/week | One year programming experience                    |
 
-## Final project
-
-OSS University is **project-focused**. You are encouraged to do the assignments and exams for each course, but what really matters is whether you can *use* your knowledge to solve a real-world problem.
-
+<h2 id="4">Final project</h2>\
 After you've gotten through all of Core CS and the parts of Advanced CS relevant to you, you should think about a problem that you can solve using the knowledge you've acquired. Not only does real project work look great on a resume, but the project will also *validate* and *consolidate* your knowledge. You can create something entirely new, or you can find an existing project that needs help via websites like [CodeTriage](https://www.codetriage.com/) or [First Timers Only](http://www.firsttimersonly.com/).
 
 Another option is using the Capstone project from taking one of the Specializations in [Advanced applications](https://github.com/ossu/computer-science#advanced-applications); whether or not this makes sense depends on the course, the project, and whether or not the course's Honor Code permits you to display your work publicly. In some cases, it may not be permitted; do **not** violate your course's Honor Code!
 
-Put the OSSU-CS badge in the README of your repository! [![Open Source Society University - Computer Science](https://camo.githubusercontent.com/55b0f02a52ab8cc845332858f47f4e14b2182f83/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f5353552d636f6d70757465722d2d736369656e63652d626c75652e737667)](https://github.com/ossu/computer-science)
-
-- Markdown: `[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)`
-- HTML: `<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>`
-
-## Pro CS
+<h2 id="5">Pro CS
+</h2>
 
 After completing the requirements of the curriculum above, you will have completed the equivalent of a full bachelor's degree in Computer Science, or quite close to one. You can stop in the Advanced CS section, but the next step to completing your studies is to develop skills and knowledge in a specific domain. Many of these courses are graduate-level.
 
