@@ -6,7 +6,15 @@ It is a complete education in computer science using online materials
 
 **Curriculum version**:`8.0.0`\(see[CHANGELOG](https://github.com/ossu/computer-science/blob/dev/CHANGELOG.md)\)
 
-[TOC]
+* [1.语法示例](#1)
+
+* [1.1图片](#1.1)
+
+* [1.2换行](#1.2)
+
+* [1.3强调](#1.3)
+
+<h2 id="1">Intro CS</h2>
 
 ## Intro CS
 
@@ -44,7 +52,7 @@ It is a complete education in computer science using online materials
 - **Required** to learn about monads, laziness, purity: [Learn You a Haskell for a Great Good!](http://learnyouahaskell.com/) 
   - **Note**: probably the best resource to learn Haskell: [Haskell Programming from First Principles](http://haskellbook.com/) `paid` 
 - **Required**, to learn about logic programming, backtracking, unification: [Learn Prolog Now!](http://lpn.swi-prolog.org/lpnpage.php?pageid=top) 
-
+<h3 id="1.1">1.1图片</h3>
 ### Core math
 
 **Topics covered**: `linear transformations` `matrices` `vectors` `mathematical proofs` `number theory` `differential calculus` `integral calculus` `sequences and series` `discrete mathematics` `basic statistics` `O-notation` `graph theory` `vector calculus` `discrete probability` `and more`
