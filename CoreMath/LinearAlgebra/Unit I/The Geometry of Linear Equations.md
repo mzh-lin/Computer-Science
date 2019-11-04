@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ./
----
-
 # The geometry of linear equations
 
 Example:
