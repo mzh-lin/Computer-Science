@@ -37,14 +37,14 @@ A vector space that is contained inside of another vector space is called a subs
 The subspaces of $R^2$ are: 
 
 1. all of $R^2$
-2. any line through $\begin{bmatrix}0\\0\end{bmatrix}​$ and
+2. any line through $\begin{bmatrix}0\\0\end{bmatrix}$ and
 3. the zero vector alone $(Z)$
 
 The subspaces of $R^3$ are: 
 
 1. all of $R^3$
 2. any plane through the origin,
-3. any line through the origin, and
+3. any line through the origin, and,
 4. the zero vector alone $(Z)$.
 
 ## Column space 
