@@ -1,2 +1,0 @@
-# Factorization into A = LU
-

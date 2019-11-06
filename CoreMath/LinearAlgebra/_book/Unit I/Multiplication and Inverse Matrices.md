@@ -1,2 +1,0 @@
-# Multiplication and Inverse Matrices
-

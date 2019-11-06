@@ -1,2 +1,0 @@
-# Elimination with Matrices
-
