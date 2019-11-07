@@ -8,7 +8,7 @@ The inverse of a matrix product $AB$ is $B^{−1} A^{−1}$.
 
 ## Transpose of a product 
 
-We obtain the **transpose** of a matrix by exchanging its rows and columns. The transpose of a matrix product $AB$ is $B^TA^T$. For any invertible matrix $A$, the inverse of $A^T$ is � $(A^{−1})^T$ .  
+We obtain the **transpose** of a matrix by exchanging its rows and columns. The transpose of a matrix product $AB$ is $B^TA^T$. For any invertible matrix $A$, the inverse of $A^T$ is  $(A^{−1})^T$ .  
 
 ## $A = LU$
 
