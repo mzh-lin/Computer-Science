@@ -2,10 +2,10 @@
 
 Example:
 $$
-\begin{align*}
+\begin{aligned}
 2x+y=0\\
 -x+2y=3
-\end{align*}
+\end{aligned}
 $$
 The fundamental problem of linear algebra is to solve n linear equations in n unknowns.
 
@@ -53,11 +53,11 @@ How do we multiply a matrix $A $ by a vector $\mathrm{x}$ ?
 
 One method is to think of the entries of $\mathrm{x} $ as the coefficients of a **linear combination** of the column vectors of the matrix:  
 $$
-\begin{align}
+\begin{aligned}
 \begin{bmatrix}2 & 5 \\1 & 3\end{bmatrix}\begin{bmatrix}1\\2\end{bmatrix} &= 1*\begin{bmatrix}2\\1\end{bmatrix}+2*\begin{bmatrix}5\\3\end{bmatrix}\\
-&=\begin{bmatrix}2·1+5·2\\1·1+3·2\end{bmatrix} \\
+&=\begin{bmatrix}2·1+5·2\\1·1+3·2\end{bmatrix}\\
 &=\begin{bmatrix}12\\7\end{bmatrix} 
-\end{align}
+\end{aligned}
 $$
 
 ## Linear Independence 

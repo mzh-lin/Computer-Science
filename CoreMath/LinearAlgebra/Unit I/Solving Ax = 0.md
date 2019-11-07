@@ -35,7 +35,7 @@ The rank of a matrix $A$ equals the number of pivots it has. In this example, th
 
  In our example, columns 1 and 3 are **pivot columns** containing pivots, and columns 2 and 4 are **free columns**. 
 
-The rank $r$ of $A$ equals the number of pivot columns, so the number of free columns is $n − r$: the number of columns (variables) minus the number of pivot columns. This equals the number of special solution vectors and the dimension of the nullspace.
+The rank $r$ of $A$ equals the number of pivot columns, so the number of free columns is $n − r$: the number of columns (variables) minus the number of pivot columns. This equals the number of special solution vectors and the dimension of the **nullspace**.
 
 ## Reduced row echelon form 
 
@@ -54,4 +54,10 @@ $$
 R=\begin{bmatrix}I&F\\
 0&0\end{bmatrix}
 $$
-If $N$ is the nullspace matrix $N = \begin{bmatrix}-F\\I\end{bmatrix}$ then $RN = 0$. (Here $I$ is an $n − r$ by $n − r$ square matrix and $0$ is an $m$ by $n − r$ matrix.) The columns of $N$ are the special solutions.  
+If $N$ is the **nullspace** matrix $N = \begin{bmatrix}-F\\I\end{bmatrix}$ then $RN = 0$. (Here $I$ is an $n − r$ by $n − r$ square matrix and $0$ is an $m$ by $n − r$ matrix.) The columns of $N$ are the special solutions.  
+
+
+
+## Reference
+
+[Solving Ax = 0: pivot variables, special solutions](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-0-pivot-variables-special-solutions/MIT18_06SCF11_Ses1.7sum.pdf )
