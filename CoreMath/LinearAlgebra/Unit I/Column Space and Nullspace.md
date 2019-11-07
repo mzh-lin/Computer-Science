@@ -1,5 +1,7 @@
 # Column Space and nullspace
 
+> Section 3.1 through 3.2 in the 4th or 5th edition 
+
 ## Review of subspaces
 
 For any two vectors $v$ and $w$ in the space and any two real numbers c and d, the vector $cv + dw $is also in the vector space.  
@@ -63,3 +65,7 @@ x_3\end{bmatrix}=\begin{bmatrix}1\\
 4\end{bmatrix}
 $$
 do not form a subspace. The zero vector is not a solution to this equation. The set of solutions forms a line in $R^3$ that passes through the points $\begin{bmatrix}1\\0\\0\end{bmatrix}$ and $\begin{bmatrix}0\\-1\\1\end{bmatrix}$ but not $\begin{bmatrix}0\\0\\0\end{bmatrix}$ .  
+
+## Reference
+
+[Column Space and Nullspace](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace/MIT18_06SCF11_Ses1.6sum.pdf )
