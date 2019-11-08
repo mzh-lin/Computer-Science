@@ -101,3 +101,7 @@ A^{-1}=\begin{bmatrix}7 & -3\\
 -2 &1\end{bmatrix}
 $$
 As in the last lecture, we can write the results of the elimination method as the product of a number of elimination matrices $E_{ij}$ with the matrix $A$. Letting $E$ be the product of all the $E_{ij}$, we write the result of this Gauss-Jordan elimination using block matrices: $E[ A | I ] = [ I | E ]$. But if $EA = I$, then $E = A^{−1}$. 
+
+## Reference
+
+[Multiplication and Inverse Matrices](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/multiplication-and-inverse-matrices/MIT18_06SCF11_Ses1.3sum.pdf)
