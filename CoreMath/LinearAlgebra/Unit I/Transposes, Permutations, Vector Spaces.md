@@ -52,3 +52,7 @@ The subspaces of $R^3$ are:
 Given a matrix $A$ with columns in $R^3$, these columns and all their linear combinations form a subspace of $R^3$. This is the column space $C(A)$. 
 
 If $A=\begin{bmatrix}1&3\\2&3\\4&1\end{bmatrix}$, the column space of $A$ is the plane through the origin in $R^3$ containing  $\begin{bmatrix}1\\2\\4\end{bmatrix}$ and $\begin{bmatrix}3\\3\\1\end{bmatrix}$.
+
+## Reference 
+
+[Transposes, Permutations, Vector Spaces](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/transposes-permutations-vector-spaces/MIT18_06SCF11_Ses1.5sum.pdf )
