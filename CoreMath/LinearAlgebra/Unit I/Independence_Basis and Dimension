@@ -1,2 +1,7 @@
 # Independence, Basis and Dimension
 
+## Linear independence 
+
+Suppose $A$ is an $m$ by $n$ matrix with $m < n $, $A$ has at least one free variable, so there are nonzero solutions to $A\mathrm{x} = \mathrm{0}$. 
+
+We say vectors $x_1, x_2, ...x_n$ are **linearly independent** (or just independent) if $c_1x_1 + c_2x_2 + · · · + c_nx_n = 0$ only when $c_1, c_2, ..., c_n$ are all 0. 
