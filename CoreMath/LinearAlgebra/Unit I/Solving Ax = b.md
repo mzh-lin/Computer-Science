@@ -18,4 +18,43 @@ $$
 0&0&2&4&b_2\\
 0&0&0&0&b_3\\\end{bmatrix}
 $$
-If $A\mathrm{x} = \mathrm{b}$ has a solution, then $b3 − b2 − b1 = 0$.  
+If $A\mathrm{x} = \mathrm{b}$ has a solution, then $b3 − b2 − b1 = 0$. $A\mathrm{x} = \mathrm{b}$ is solvable exactly when b is in the column space $C(A)$ .
+
+## Complete solution
+
+### A particular solution
+
+One way to find a particular solution to the equation $A\mathrm{x} = \mathrm{b}$ is to set all free variables to zero, then solve for the pivot variables.  
+
+For example,
+$$
+\begin{align}
+x_1+2x_3=1\\
+2x_3=3
+\end{align}
+$$
+which has the solution $x3 = 3/2, x1 = −2$. Our particular solution is:  
+$$
+A=\begin{bmatrix}-2\\
+0\\
+3/2\\
+0\\\end{bmatrix}
+$$
+
+### Combined with the nullspace 
+
+The general solution to $A\mathrm{x} = \mathrm{b}$ is given by $x_{complete} = x_p + x_n$, where $x_n$ is a generic vector in the nullspace.  
+
+The nullspace of A is the collection of all combinations of the special solutions  $\begin{bmatrix}-2\\1\\0\\0\\\end{bmatrix}$ and $\begin{bmatrix}2\\0\\-2\\1\\\end{bmatrix}$. So the complete solution to the equation $A\mathrm{x} =\begin{bmatrix}1\\5\\6\\\end{bmatrix}$ is:
+$$
+x_{complete}=\begin{bmatrix}-2\\
+0\\
+3/2\\
+0\\\end{bmatrix}+c_1\begin{bmatrix}-2\\1\\0\\0\\\end{bmatrix}+c_2\begin{bmatrix}2\\0\\-2\\1\\\end{bmatrix}
+$$
+
+## Rank
+
+The rank of a matrix equals the number of pivots of that matrix. If $A$ is an $m$ by $n$ matrix of rank $r$, we know $r ≤ m$ and $r ≤ n$.
+
+### Full column rank
