@@ -9,3 +9,23 @@ We say vectors $x_1, x_2, ...x_n$ are **linearly independent** (or just independ
 Two vectors are independent if they do not lie on the same line. The column vectors of $A$ are independent exactly when the nullspace of $A$ contains only the zero vector.  
 
 If the columns of $A$ are independent then all columns are pivot columns, the rank of $A$ is $n$, and there are no free variables. If the columns of A are dependent then the rank of $A$ is less than $n$ and there are free variables.  
+
+## Spanning a space 
+
+Vectors $v_1, v_2, ...v_k$ **span** a space when the space consists of all combinations of those vectors.  
+
+## Basis and dimension 
+
+A basis for a vector space is a sequence of vectors $v_1, v_2, ...v_d$ with two properties: 
+
+- $v_1, v_2, ...v_d$ are independent
+- $v_1, v_2, ...v_d$ span the vector space.  
+
+One basis for $R^3$ is :
+$$
+\begin{bmatrix}1\\0\\0\end{bmatrix},\begin{bmatrix}0\\1\\0\end{bmatrix},\begin{bmatrix}0\\0\\1\end{bmatrix}
+$$
+
+### Basis for a subspace 
+
+Given a space, every basis for that space has the same number of vectors; that number is the **dimension** of the space. So there are exactly $n$ vectors in every basis for $R^n$.  
