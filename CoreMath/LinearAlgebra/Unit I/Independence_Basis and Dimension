@@ -5,3 +5,7 @@
 Suppose $A$ is an $m$ by $n$ matrix with $m < n $, $A$ has at least one free variable, so there are nonzero solutions to $A\mathrm{x} = \mathrm{0}$. 
 
 We say vectors $x_1, x_2, ...x_n$ are **linearly independent** (or just independent) if $c_1x_1 + c_2x_2 + · · · + c_nx_n = 0$ only when $c_1, c_2, ..., c_n$ are all 0. 
+
+Two vectors are independent if they do not lie on the same line. The column vectors of $A$ are independent exactly when the nullspace of $A$ contains only the zero vector.  
+
+If the columns of $A$ are independent then all columns are pivot columns, the rank of $A$ is $n$, and there are no free variables. If the columns of A are dependent then the rank of $A$ is less than $n$ and there are free variables.  
