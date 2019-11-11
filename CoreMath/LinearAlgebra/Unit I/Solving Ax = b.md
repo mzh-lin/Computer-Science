@@ -58,3 +58,26 @@ $$
 The rank of a matrix equals the number of pivots of that matrix. If $A$ is an $m$ by $n$ matrix of rank $r$, we know $r ≤ m$ and $r ≤ n$.
 
 ### Full column rank
+
+If $r = n$, then from the previous lecture we know that the nullspace has dimension $n − r = 0 $ and contains only the zero vector. There are no free variables or special solutions.  
+
+The row reduced echelon form of the matrix will look like $R=\begin{bmatrix}I\\0\end{bmatrix}$ .
+
+### Full row rank 
+
+If $r = m$, then the reduced matrix $R = \begin{bmatrix}I&F\end{bmatrix}$ has no rows of zeros and so there are no requirements for the entries of $b$ to satisfy. There are $n − r = n − m$ free variables, so there are $n − m$ special solutions to $A\mathrm{x} = 0$.
+
+### Full row and column rank 
+
+If $r = m = n$ is the number of pivots of A, then A is an invertible square matrix and R is the identity matrix.  
+
+### Summary
+
+|                                         | $r=m=n$ | $r=n<m$                            | $r=m<n$                           | $r<m,r<n$                              |
+| --------------------------------------- | ------- | ---------------------------------- | --------------------------------- | -------------------------------------- |
+| R                                       | $I$     | $\begin{bmatrix}I\\0\end{bmatrix}$ | $\begin{bmatrix}I&F\end{bmatrix}$ | $\begin{bmatrix}I&F\\0&0\end{bmatrix}$ |
+| solutions to $A\mathrm{x} = \mathrm{b}$ | 1       | 0 or 1                             | infinitely many                   | 0 or infinitely many                   |
+
+## Reference
+
+[Solving $A\mathrm{x} = \mathrm{b}$: row reduced form $R$](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/MIT18_06SCF11_Ses1.8sum.pdf )
