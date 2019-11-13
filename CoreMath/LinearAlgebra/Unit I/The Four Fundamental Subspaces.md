@@ -60,3 +60,44 @@ $$
 dim\ N(A^T) = m − r.
 $$
 The left nullspace is the collection of vectors $y$ for which $A^Ty = 0$. Equivalently, $y^TA = 0$; here $y$ and $0$ are row vectors.  
+$$
+\begin{bmatrix}A_{m*n}&I_{m*n}\end{bmatrix}\longrightarrow\begin{bmatrix}R_{m*n}&E_{m*n}\end{bmatrix}
+$$
+
+$$
+EA=\begin{bmatrix}-1&2&0\\
+1& -1&0\\
+-1&0&1\end{bmatrix}\begin{bmatrix}1&2&3&1\\
+1& 1&2&1\\
+1&2&3&1\end{bmatrix}=
+\begin{bmatrix}1&0&1&1\\
+0& 1&1&0\\
+0&0&0&0\end{bmatrix}=R
+$$
+
+The bottom $m − r$ rows of E satisfy the equation $y^TA = 0$ and form a basis for the left nullspace of $A$.  
+
+## New vector space
+
+The collection of all $3 × 3$ matrices forms a vector space; call it $M$. We can add matrices and multiply them by scalars and there’s a zero matrix (additive identity). If we ignore the fact that we can multiply matrices by each other, they behave just like vectors. 
+
+Some subspaces of $M$ include:  
+
+- all upper triangular matrices  
+- all symmetric matrices  
+- $D$, all diagonal matrices 
+
+$D$ is the intersection of the first two spaces. Its dimension is 3; one basis for $D$ is: 
+$$
+\begin{bmatrix}1&0&0\\
+0& 0&0\\
+0&0&0\end{bmatrix},
+\begin{bmatrix}1&0&0\\
+0& 3&0\\
+0&0&0\end{bmatrix},
+\begin{bmatrix}0&0&0\\
+0& 0&0\\
+0&0&7\end{bmatrix}
+$$
+
+
