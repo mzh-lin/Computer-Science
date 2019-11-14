@@ -95,4 +95,11 @@ $$
 ###  Small world graphs 
 
  In this class, a **graph** $G$ is a collection of nodes joined by edges:  
+$$
+G=\{nodes,edges\}
+$$
+![image-20191114222154446](E:\GitHub\Computer-Science\CoreMath\LinearAlgebra\Unit I\Matrix Spaces; Rank 1; Small World Graphs.assets\image-20191114222154446.png)
 
+## Reference
+
+[Matrix spaces; rank 1; small world graph]( https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/matrix-spaces-rank-1-small-world-graphs/MIT18_06SCF11_Ses1.11sum.pdf )
